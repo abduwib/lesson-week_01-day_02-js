@@ -23,7 +23,7 @@ let currentAge = 21;
 let maximumAge = 111;
 var estimatedAmount = 3 ;
 let maxAmount = maximumAge - currentAge * estimatedAmount;
-    { console.log("You will need " +maxAmo+" to last you until the ripe old age of "+maximumAge);}
+    { console.log("You will need " +maxAmount+" to last you until the ripe old age of "+maximumAge);}
 
 OUTPUT: You will need 48 to last you until the ripe old age of 111
 
@@ -37,8 +37,8 @@ OUTPUT: The circumference is 144.44
 //The Temperature Converter
 let celcius = 22;
     {console.log(celcius + "°C is " + (celcius*9/5+32) + "°F") } 
-OUTPUT: 22°C is 71.6°F
+OUTPUT: 21.9°C is 71.6°F
 
-let fahrenheit = 71;
-    {console.log(fahrenheit + "°F is " + (fahrenheit - 32 *5/9) + "°C") }
-OUTPUT: 71°F is 53.22222222222222°C    
+let fahrenheit = 71.6;
+    {console.log(fahrenheit + "°F is " + ((fahrenheit - 32) *(5/9)) + "°C") } 
+OUTPUT: 71.6°F is 21.9°C
