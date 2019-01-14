@@ -1,0 +1,44 @@
+
+//The Fortune Teller
+let N = "12" ;
+let Z = "someone great" ; 
+let Y = "heaven" ;
+let X = "Web Developer" ;
+
+    {console.log("You will be a " +X+ " in " +Y+ ", married to  " +Z+ " with " +N+ " kids.");}
+
+OUTPUT: You will be a Web Developer in heaven, married to  someone great with 12 kids. 
+
+//The Age Calculator
+let currentYear = 2019;
+let birthYear = 1997 ;
+let possibility1 = currentYear - birthYear ;
+let possibility2 = birthYear - currentYear ;
+    {console.log("They are either "+possibility1+" or "+possibility2+".");} 
+
+OUTPUT: they are either 22 or -22
+
+//The Lifetime Supply Calculator
+let currentAge = 21;
+let maximumAge = 111;
+var estimatedAmount = 3 ;
+let maxAmount = maximumAge - currentAge * estimatedAmount;
+    { console.log("You will need " +maxAmo+" to last you until the ripe old age of "+maximumAge);}
+
+OUTPUT: You will need 48 to last you until the ripe old age of 111
+
+//The Geometrizer
+var radius = 23 ;  
+var circumference = 2 * 3.14 * radius ;
+    {console.log("The circumference is " +circumference);}
+
+OUTPUT: The circumference is 144.44
+
+//The Temperature Converter
+let celcius = 22;
+    {console.log(celcius + "°C is " + (celcius*9/5+32) + "°F") } 
+OUTPUT: 22°C is 71.6°F
+
+let fahrenheit = 71;
+    {console.log(fahrenheit + "°F is " + (fahrenheit - 32 *5/9) + "°C") }
+OUTPUT: 71°F is 53.22222222222222°C    
