@@ -35,7 +35,7 @@ var circumference = 2 * 3.14 * radius ;
 OUTPUT: The circumference is 144.44
 
 //The Temperature Converter
-let celcius = 22;
+let celcius = 21.9;
     {console.log(celcius + "°C is " + (celcius*9/5+32) + "°F") } 
 OUTPUT: 21.9°C is 71.6°F
 
